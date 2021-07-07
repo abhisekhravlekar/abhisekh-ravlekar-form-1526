@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--HEAD PART  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Assignment</title>
+
+    <!--STYLESHEET LINK  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--END OF STYLESHEET LINK  -->
+</head>
+<!--END OF HEAD PART  -->
+
+<!--BODY PART  -->
+
+<!--Task description
+
+You will use JavaScript to validate an HTML form. The form will consist of 4 <input> tags: full-name, email, message and submit.
+The max-width of the main content is 50 rem. If the window is greater than 50 rem, the main content stays positioned in the middle of view-port.-->
+<body>
+    <!--Title - Form Assignment  -->
+    <legend>Form Assignment</legend>
+
+    <!--Form  -->
+    <form id="subscribe-form">
+
+        <div class="container">
+            <div class="n-e">
+
+                <!--input type="text" id="fullname -->
+                <div id="active">
+                    <label class="name" for="name">Full Name</label>
+                    <input type="text" id="fullname" name="fname" value="">
+                </div>
+
+                <!--input type="text" id="email -->
+                <div class="flex">
+                    <label class="email-label" for="mail">Email</label>
+                    <input type="text" id="email" name="email" value="">
+                </div>
+
+            </div>
+
+            <!--textarea id="message -->
+            <label class="text" for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+            <!--input type="submit" id="submit-button -->
+            <input class="sub" type="submit" id="submit-button" value="Submit">
+
+        </div>
+    </form>
+    <!--End of Form  -->
+
+
+
+    <!--JAVA SCRIPT LINK  -->
+    <script src="js/index.js"></script>
+
+</body>
+<!--END OF BODY PART  -->
+
+</html>
