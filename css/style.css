@@ -1,0 +1,669 @@
+/***********************  FORM STYLING  ***********************/
+
+/*Title - Form Assignment*/
+legend {
+    background-color: white;
+    border: 2px solid #DDD;
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1.5rem;
+}
+
+/*Title - POSITION*/
+legend {
+    position: absolute;
+    margin: 2.1rem;
+    top: -.5rem;
+}
+
+/*BODY POSITION & BACKGROUND COLOR*/
+body .container {
+    background-color: #F5F5F5;
+    border: 2px solid #DDD;
+    padding: 1.2rem;
+    border-radius: 5px;
+    margin: .8rem;
+    margin-top: 4rem;
+}
+
+/*NEW LINE ELEMENTS - NAME*/
+.name::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/*NEW LINE ELEMENTS - EMAIL*/
+.email-label::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/*NEW LINE ELEMENTS - TEXTAREA*/
+.text::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/*LABEL FONT FAMILY & SIZE*/
+label {
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1.2rem;
+}
+
+/*FULLNAME TOP MARGIN*/
+.n-e {
+    margin-top: 4rem;
+}
+
+/*FULLNAME FLEX_DIRECTION*/
+.n-e {
+    display: flex;
+    flex-direction: column;
+}
+
+/*INPUT_TEXTAREA margin & border style*/
+input, textarea {
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #DDD;
+    border-radius: 2px;
+}
+
+/*INPUT_TEXTAREA height & width*/
+input {
+    height: 2rem;
+    width: 17.8rem;
+}
+
+/*MESSAGE_TEXTAREA height & width*/
+textarea {
+    height: 4rem;
+    width: 17.8rem;
+}
+
+/*SUBMIT BUTTON*/
+.sub {
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #6495ED;
+    border-radius: 5px;
+    width: 18.3rem;
+    height: 2.5rem;
+    border: none;
+}
+
+/*SUBMIT BUTTON-HOVER*/
+.sub:hover{
+    background-color: #125ce6;
+    cursor: pointer;
+}
+
+.sub::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/***********************  END OF FORM STYLING  ***********************/
+
+
+
+/***********************  MEDIA QUERIES  ***********************/
+
+/***************************************************
+Portrait phone and up
+***************************************************/
+@media only screen and (min-width: 375px) {
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        position: absolute;
+        margin: 2.1rem;
+        top: -.5rem;
+    }
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.2rem;
+        border-radius: 5px;
+        margin: .8rem;
+        margin-top: 4rem;
+    }
+
+    /*LABEL FONT FAMILY & SIZE*/
+    label {
+        font-size: 1.2rem;
+    }
+
+    /*FULLNAME TOP MARGIN*/
+    .n-e {
+        margin-top: 4rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        margin-top: 0.8rem;
+        margin-bottom: 1.5rem;
+        border-radius: 2px;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 17.8rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 17.8rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        font-size: 1.2rem;
+        color: white;
+        background-color: #6495ED;
+        border-radius: 5px;
+        width: 18.3rem;
+        height: 2.5rem;
+        border: none;
+    }
+}
+
+/***************************************************
+Portrait phone and up
+***************************************************/
+@media only screen and (min-width: 480px) {
+
+    /*Title - Form Assignment*/
+    legend {
+        background-color: white;
+        border: 2px solid #DDD;
+        padding: 1.5rem;
+        font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        position: absolute;
+        margin: 2.1rem;
+        top: -.5rem;
+    }
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        background-color: #F5F5F5;
+        border: 2px solid #DDD;
+        padding: 1.2rem;
+        border-radius: 5px;
+        margin: .8rem;
+        margin-top: 4rem;
+    }
+
+    /*LABEL FONT FAMILY & SIZE*/
+    label {
+        font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+        font-size: 1.2rem;
+    }
+
+    /*FULLNAME TOP MARGIN*/
+    .n-e {
+        margin-top: 4rem;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        margin-top: 0.8rem;
+        margin-bottom: 1.5rem;
+        border: 2px solid #DDD;
+        border-radius: 2px;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 17.8rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 17.8rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #6495ED;
+        border-radius: 5px;
+        width: 18.3rem;
+        height: 2.5rem;
+        border: none;
+    }
+}
+
+
+
+
+/***************************************************
+Landscape phone and up
+***************************************************/
+@media only screen and (min-width: 480px) {
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    /*Title - POSITION*/
+    input {
+        height: 2rem;
+        width: 24.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 24.5rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 25rem;
+        height: 2.5rem;
+    }
+}
+
+
+
+
+/***************************************************
+Custom Media Query - 640px and up
+***************************************************/
+@media only screen and (min-width: 640px) {
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 34.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 34.5rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 35rem;
+        height: 2.5rem;
+    }
+}
+
+
+
+
+/***************************************************
+Portrait tablet - 768px and up
+***************************************************/
+@media only screen and (min-width: 768px){
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        margin: 4.5rem;
+        top: -1.5rem;
+    }
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.5rem;
+        margin: 3rem;
+        margin-top: 5.5rem;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        border-radius: 4px;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 17.65rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*FLEX MARGIN*/
+    .flex {
+        margin-left: 1.5rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 10rem;
+        height: 2.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 37.2rem;
+    }
+
+}
+
+
+
+
+/***************************************************
+Landscape desktop (17”) and up
+***************************************************/
+
+@media only screen and (min-width: 960px){
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        margin: 4.5rem;
+        top: -1.5rem;
+    }
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.5rem;
+        margin: 3rem;
+        margin-top: 5.5rem;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 23.65rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*FLEX MARGIN*/
+    .flex {
+        margin-left: 1.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 49.3rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        margin-top: 1.2rem;
+        margin-bottom: 3rem;
+        border: 2px solid #DDD;
+        border-radius: 2px;
+    }
+
+}
+
+
+
+
+/***************************************************
+Widescreen desktop (24”) and up
+***************************************************/
+
+@media only screen and (min-width: 1160px){
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.2rem;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        max-width: 50rem;
+    }
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        margin: 10.7rem;
+        top: -7.5rem;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 23.78rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*FLEX MARGIN*/
+    .flex {
+        margin-left: 1.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 49.6rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        margin-top: 1.2rem;
+        margin-bottom: 3rem;
+        border: 2px solid #DDD;
+        border-radius: 4px;
+    }
+}
+
+
+
+
+
+/***************************************************
+Widescreen desktop (1400px) and up
+***************************************************/
+
+@media only screen and (min-width: 1400px) {
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.2rem;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        max-width: 50rem;
+    }
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        margin: 19.5rem;
+        top: -16.5rem;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 23.78rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*FLEX MARGIN*/
+    .flex {
+        margin-left: 1.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    textarea {
+        height: 4rem;
+        width: 49.6rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    /*INPUT_TEXTAREA margin & border style*/
+    input, textarea {
+        margin-top: 1.2rem;
+        margin-bottom: 3rem;
+        border: 2px solid #DDD;
+        border-radius: 4px;
+    }
+}
+
+
+
+
+/***************************************************
+Widescreen desktop (1536px) and up
+***************************************************/
+
+@media only screen and (min-width: 1536px) {
+
+    /*BODY POSITION & BACKGROUND COLOR*/
+    body .container {
+        padding: 1.2rem;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        max-width: 50rem;
+    }
+
+    /*Title - Form Assignment*/
+    legend {
+        padding: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    /*Title - POSITION*/
+    legend {
+        margin: 22.5rem;
+        top: -19.6rem;
+    }
+
+    /*INPUT_TEXTAREA height & width*/
+    input {
+        height: 2rem;
+        width: 23.78rem;
+    }
+
+    /*FULLNAME FLEX_DIRECTION*/
+    .n-e {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*FLEX MARGIN*/
+    .flex {
+        margin-left: 1.5rem;
+    }
+
+    textarea {
+        height: 4rem;
+        width: 49.6rem;
+    }
+
+    /*SUBMIT BUTTON*/
+    .sub {
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    /*MESSAGE_TEXTAREA height & width*/
+    input, textarea {
+        margin-top: 1.2rem;
+        margin-bottom: 3rem;
+        border: 2px solid #DDD;
+        border-radius: 4px;
+    }
+}
+
+
+
+/***********************  END OF MEDIA QUERIES  ***********************/
